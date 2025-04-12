@@ -1,0 +1,115 @@
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-blue: #1E40AF;
+  --secondary-blue: #3B82F6;
+  --light-blue: #DBEAFE;
+  --white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  @apply bg-white dark:bg-gray-900;
+}
+
+.section-padding {
+  padding: 80px 20px;
+}
+
+.blue-gradient {
+  background: linear-gradient(90deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+}
+
+.blue-text-gradient {
+  background: linear-gradient(90deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  position: relative;
+  display: inline-block;
+  @apply text-gray-800 dark:text-white;
+}
+
+.section-heading:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 50%;
+  height: 4px;
+  background: var(--primary-blue);
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background: var(--primary-blue);
+  color: white;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  background: var(--secondary-blue);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--primary-blue);
+  padding: 9px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  display: inline-block;
+  border: 1px solid var(--primary-blue);
+}
+
+.btn-secondary:hover {
+  background: var(--light-blue);
+  transform: translateY(-2px);
+}
+
+/* Dark mode specific styles */
+/* Add this to your existing index.css */
+.blue-text-gradient {
+  background: linear-gradient(90deg, var(--primary-blue) 0%, var(--secondary-blue) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .blue-text-gradient {
+  background: linear-gradient(90deg, #93c5fd 0%, #60a5fa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .btn-secondary {
+  color: #93C5FD;
+  border-color: #93C5FD;
+}
+
+.dark .btn-secondary:hover {
+  background: rgba(147, 197, 253, 0.1);
+}
