@@ -30,8 +30,8 @@ import { DiScrum } from "react-icons/di";
 
 const Skills = ({ darkMode }) => {
   const skills = [
-    { name: "HTML5", icon: <FaHtml5 size={40} />, color: "text-orange-500" },
-    { name: "CSS3", icon: <FaCss3Alt size={40} />, color: "text-blue-500" },
+    { name: "HTML", icon: <FaHtml5 size={40} />, color: "text-orange-500" },
+    { name: "CSS", icon: <FaCss3Alt size={40} />, color: "text-blue-500" },
     { name: "JavaScript", icon: <FaJs size={40} />, color: "text-yellow-500" },
     { name: "TypeScript", icon: <SiTypescript size={40} />, color: "text-blue-600" },
     { name: "React.js", icon: <FaReact size={40} />, color: "text-blue-400" },
@@ -49,7 +49,6 @@ const Skills = ({ darkMode }) => {
     { name: "Microsoft SQL Server", icon: <SiMicrosoftsqlserver size={40} />, color: "text-red-500" },
     { name: "JWT", icon: <span className="text-4xl">JWT</span>, color: "text-purple-700" },
     { name: "OAuth 2.0", icon: <span className="text-4xl">OAuth</span>, color: "text-blue-700" },
-    { name: "RBAC", icon: <span className="text-4xl">RBAC</span>, color: "text-indigo-600" },
     { name: "RESTful APIs", icon: <span className="text-4xl">REST</span>, color: "text-green-700" },
     { name: "GraphQL", icon: <SiGraphql size={40} />, color: "text-pink-600" },
     { name: "Postman", icon: <SiPostman size={40} />, color: "text-orange-600" },
@@ -61,7 +60,6 @@ const Skills = ({ darkMode }) => {
     { name: "Jira", icon: <SiJira size={40} />, color: "text-blue-600" },
     { name: "Agile", icon: <DiScrum size={40} />, color: "text-green-600" },
     { name: "Generative AI", icon: <span className="text-4xl">AI</span>, color: "text-purple-500" },
-    { name: "Figma", icon: <FaFigma size={40} />, color: "text-purple-500" },
   ];
 
   return (
