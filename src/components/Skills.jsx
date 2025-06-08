@@ -36,7 +36,6 @@ const Skills = ({ darkMode }) => {
     { name: "React.js", icon: <FaReact size={40} />, color: "text-blue-400" },
     { name: "Next.js", icon: <SiNextdotjs size={40} />, color: "text-black dark:text-white" },
     { name: "Node.js", icon: <FaNode size={40} />, color: "text-green-500" },
-    { name: "Express.js", icon: <SiExpress size={40} />, color: "text-gray-500" },
     { name: "React Native", icon: <SiReact size={40} />, color: "text-blue-400" },
     { name: "MongoDB", icon: <SiMongodb size={40} />, color: "text-green-600" },
     { name: "Microsoft SQL Server", icon: <SiMicrosoftsqlserver size={40} />, color: "text-red-500" },
