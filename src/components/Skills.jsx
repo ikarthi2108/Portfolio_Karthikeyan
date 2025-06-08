@@ -33,32 +33,32 @@ const Skills = ({ darkMode }) => {
     { name: "HTML", icon: <FaHtml5 size={40} />, color: "text-orange-500" },
     { name: "CSS", icon: <FaCss3Alt size={40} />, color: "text-blue-500" },
     { name: "JavaScript", icon: <FaJs size={40} />, color: "text-yellow-500" },
-    { name: "TypeScript", icon: <SiTypescript size={40} />, color: "text-blue-600" },
+
     { name: "React.js", icon: <FaReact size={40} />, color: "text-blue-400" },
     { name: "Next.js", icon: <SiNextdotjs size={40} />, color: "text-black dark:text-white" },
-    { name: "Redux", icon: <SiRedux size={40} />, color: "text-purple-500" },
+
     { name: "Node.js", icon: <FaNode size={40} />, color: "text-green-500" },
     { name: "Express.js", icon: <SiExpress size={40} />, color: "text-gray-500" },
     { name: "React Native", icon: <SiReact size={40} />, color: "text-blue-400" },
     { name: "Tailwind CSS", icon: <SiTailwindcss size={40} />, color: "text-teal-500" },
     { name: "Bootstrap", icon: <FaBootstrap size={40} />, color: "text-purple-600" },
     { name: "Material UI", icon: <span className="text-4xl">MUI</span>, color: "text-blue-600" },
-    { name: "Sass", icon: <FaSass size={40} />, color: "text-pink-500" },
+
     { name: "MongoDB", icon: <SiMongodb size={40} />, color: "text-green-600" },
-    { name: "Mongoose", icon: <SiMongodb size={40} />, color: "text-red-600" },
+
     { name: "Microsoft SQL Server", icon: <SiMicrosoftsqlserver size={40} />, color: "text-red-500" },
-    { name: "JWT", icon: <span className="text-4xl">JWT</span>, color: "text-purple-700" },
-    { name: "OAuth 2.0", icon: <span className="text-4xl">OAuth</span>, color: "text-blue-700" },
+
+
     { name: "RESTful APIs", icon: <span className="text-4xl">REST</span>, color: "text-green-700" },
-    { name: "GraphQL", icon: <SiGraphql size={40} />, color: "text-pink-600" },
-    { name: "Postman", icon: <SiPostman size={40} />, color: "text-orange-600" },
-    { name: "Swagger", icon: <SiSwagger size={40} />, color: "text-green-500" },
+
+
+
     { name: "Git", icon: <FaGitAlt size={40} />, color: "text-orange-600" },
     { name: "GitHub", icon: <FaGitAlt size={40} />, color: "text-gray-800 dark:text-white" },
-    { name: "VS Code", icon: <span className="text-4xl">VS</span>, color: "text-blue-500" },
-    { name: "AWS S3", icon: <SiAmazonaws size={40} />, color: "text-orange-400" },
+
+
     { name: "Jira", icon: <SiJira size={40} />, color: "text-blue-600" },
-    { name: "Agile", icon: <DiScrum size={40} />, color: "text-green-600" },
+
     { name: "Generative AI", icon: <span className="text-4xl">AI</span>, color: "text-purple-500" },
   ];
 
