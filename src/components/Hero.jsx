@@ -39,7 +39,7 @@ const Hero = ({ darkMode }) => {
             FullStack Developer
           </h2>
           <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-lg mx-auto md:mx-0">
-            Full Stack Developer with 2.5+ years of experience in building
+            Full Stack Developer with around 2 years of experience in building
             scalable web and mobile applications. Specialized in the MERN stack
             with added expertise in React Native for cross-platform mobile
             development.
