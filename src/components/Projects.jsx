@@ -25,21 +25,6 @@ const Projects = ({ darkMode }) => {
       accentColor: "bg-purple-100 dark:bg-purple-900"
     },
     {
-      title: "Quiz, Donation, and Waste Collection",
-      shortDescription: "A waste management app with interactive quizzes and challenges.",
-      fullDescription: [
-        "Developed waste management web app with interactive quizzes, increasing user engagement.",
-        "Optimized performance with Redux state management and Bootstrap responsive design.",
-        "Integrated RESTful APIs for dynamic content delivery and seamless communication.",
-        "Implemented secure authentication and role-based access control using JWT."
-      ],
-      role: "Frontend Developer",
-      technologies: ["React.js", "Redux", "Bootstrap", "Chart.js", "JWT"],
-      showLinks: false,
-      icon: "♻️",
-      accentColor: "bg-green-100 dark:bg-green-900"
-    },
-    {
       title: "Shows, Events, Artist Info Guide",
       shortDescription: "Mobile app for managing and exploring festival events.",
       fullDescription: [
@@ -53,21 +38,6 @@ const Projects = ({ darkMode }) => {
       icon: "🎪",
       accentColor: "bg-yellow-100 dark:bg-yellow-900"
     },
-    {
-      title: "Employee Management App",
-      shortDescription: "Manage employee profiles, schedules, timesheets, and time-offs.",
-      fullDescription: [
-        "Built mobile app to manage employee timesheets, schedules, profiles, and time-off requests.",
-        "Developed responsive UI components using React Native ensuring cross-platform compatibility.",
-        "Integrated secure login and profile management features for smooth user experience.",
-        "Optimized performance and implemented offline support using local storage."
-      ],
-      role: "Frontend Developer",
-      technologies: ["React Native", "Redux", "AsyncStorage"],
-      showLinks: false,
-      icon: "👩‍💼",
-      accentColor: "bg-blue-100 dark:bg-blue-900"
-    }
   ];
 
   return (
