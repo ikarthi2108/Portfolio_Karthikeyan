@@ -36,13 +36,10 @@ const Hero = ({ darkMode }) => {
             </span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold mb-6 text-gray-700 dark:text-gray-300">
-            FullStack Developer
+            FullStack Engineer
           </h2>
           <p className="text-gray-600 dark:text-gray-400 mb-8 max-w-lg mx-auto md:mx-0">
-            Full Stack Developer with around 2 years of experience in building
-            scalable web and mobile applications. Specialized in the MERN stack
-            with added expertise in React Native for cross-platform mobile
-            development.
+            Full Stack Engineer with 2 years’ experience crafting scalable web & mobile apps using MERN stack and React Native.
           </p>
 
           <div className="flex gap-4 justify-center md:justify-start mb-8">
