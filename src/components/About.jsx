@@ -16,16 +16,10 @@ const About = ({ darkMode }) => {
               My Journey
             </h3>
             <p className="text-gray-700 dark:text-gray-300 mb-4">
-              I'm a Full Stack Developer with nearly 2.5 years of experience in building scalable and performant web and mobile applications. I specialize in the MERN stack and have strong proficiency in React Native for cross-platform mobile development.
-            </p>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              I’ve worked extensively with technologies like React.js, Next.js, Node.js, MongoDB, MySQL, and have hands-on experience with API integration, JWT authentication, server-side rendering (SSR), and static site generation (SSG).
-            </p>
-            <p className="text-gray-700 dark:text-gray-300 mb-4">
-              My development approach is user-centric, performance-driven, and guided by Agile methodologies using Git, GitHub, and Jira. I also make use of AI tools like ChatGPT to enhance productivity and documentation.
+              Full Stack Engineer with 2.5 years of experience building scalable web & mobile apps using the MERN stack and React Native. Agile-driven, confident with Git, and passionate about Python and AI—exploring models with Ollama.
             </p>
             <p className="text-gray-700 dark:text-gray-300">
-              Outside of coding, I enjoy playing cricket and table tennis, and I have a deep interest in stocks, investments, and economics.
+              Off the clock, I’m into cricket, TT, and all things stocks & economics.
             </p>
           </div>
 
